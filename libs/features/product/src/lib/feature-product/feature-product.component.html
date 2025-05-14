@@ -8,7 +8,8 @@
           <h5 class="card-title">{{ product.title }}</h5>
           <p class="card-text text-muted">{{ product.category }}</p>
           <p class="card-text">{{ product.price | currency }}</p>
-          <button class="btn btn-primary mt-auto">View Details</button>
+          <a [routerLink]="['/product', product.id]" class="btn btn-primary mt-auto">View Details</a>
+
         </div>
       </div>
     </div>
