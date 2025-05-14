@@ -22,7 +22,10 @@
             "input": "apps/storefront/public"
           }
         ],
-        "styles": ["apps/storefront/src/styles.scss"],
+        "styles": [
+          "apps/storefront/src/styles.scss",
+          "node_modules/bootstrap/dist/css/bootstrap.min.css"
+        ],
         "scripts": []
       },
       "configurations": {
