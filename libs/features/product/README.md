@@ -1,7 +1,7 @@
-# feature-products
+# feature-product
 
 This library was generated with [Nx](https://nx.dev).
 
 ## Running unit tests
 
-Run `nx test feature-products` to execute the unit tests.
+Run `nx test feature-product` to execute the unit tests.
