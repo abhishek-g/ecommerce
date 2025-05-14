@@ -14,7 +14,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ecommerce/data-access": ["libs/data-access/src/index.ts"],
+      "@ecommerce/feature-cart": ["libs/features/cart/src/index.ts"],
+      "@ecommerce/feature-products": ["libs/features/products/src/index.ts"],
+      "@ecommerce/ui": ["libs/shared/src/index.ts"],
+      "@ecommerce/utils": ["libs/utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
